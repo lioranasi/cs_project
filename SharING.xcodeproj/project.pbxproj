@@ -15,6 +15,8 @@
 		389C8F0D1DCDEE6E007961C7 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 389C8F0B1DCDEE6E007961C7 /* LaunchScreen.storyboard */; };
 		389C8F421DCE227D007961C7 /* DashboardViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 389C8F411DCE227D007961C7 /* DashboardViewController.swift */; };
 		389C8F461DCE3CEB007961C7 /* CreatePoolViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 389C8F451DCE3CEB007961C7 /* CreatePoolViewController.swift */; };
+		F067FE341DCE98EB00341B18 /* QRCodeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F067FE331DCE98EB00341B18 /* QRCodeViewController.swift */; };
+		F067FE361DCE993700341B18 /* QRScannerViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F067FE351DCE993700341B18 /* QRScannerViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -29,6 +31,8 @@
 		389C8F3D1DCE1BAD007961C7 /* SharING-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "SharING-Bridging-Header.h"; sourceTree = "<group>"; };
 		389C8F411DCE227D007961C7 /* DashboardViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DashboardViewController.swift; sourceTree = "<group>"; };
 		389C8F451DCE3CEB007961C7 /* CreatePoolViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CreatePoolViewController.swift; sourceTree = "<group>"; };
+		F067FE331DCE98EB00341B18 /* QRCodeViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = QRCodeViewController.swift; sourceTree = "<group>"; };
+		F067FE351DCE993700341B18 /* QRScannerViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = QRScannerViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -70,6 +74,8 @@
 				389C8F0E1DCDEE6E007961C7 /* Info.plist */,
 				389C8F3D1DCE1BAD007961C7 /* SharING-Bridging-Header.h */,
 				389C8F411DCE227D007961C7 /* DashboardViewController.swift */,
+				F067FE331DCE98EB00341B18 /* QRCodeViewController.swift */,
+				F067FE351DCE993700341B18 /* QRScannerViewController.swift */,
 				389C8F451DCE3CEB007961C7 /* CreatePoolViewController.swift */,
 			);
 			path = SharING;
@@ -152,11 +158,13 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				F067FE341DCE98EB00341B18 /* QRCodeViewController.swift in Sources */,
 				389C8F051DCDEE6E007961C7 /* DetailViewController.swift in Sources */,
 				389C8F031DCDEE6E007961C7 /* MasterViewController.swift in Sources */,
 				389C8F421DCE227D007961C7 /* DashboardViewController.swift in Sources */,
 				389C8F011DCDEE6E007961C7 /* AppDelegate.swift in Sources */,
 				389C8F461DCE3CEB007961C7 /* CreatePoolViewController.swift in Sources */,
+				F067FE361DCE993700341B18 /* QRScannerViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -325,6 +333,7 @@
 				389C8F131DCDEE6E007961C7 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
