@@ -13,10 +13,9 @@
 		389C8F081DCDEE6E007961C7 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 389C8F061DCDEE6E007961C7 /* Main.storyboard */; };
 		389C8F0A1DCDEE6E007961C7 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 389C8F091DCDEE6E007961C7 /* Assets.xcassets */; };
 		389C8F0D1DCDEE6E007961C7 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 389C8F0B1DCDEE6E007961C7 /* LaunchScreen.storyboard */; };
-		389C8F3B1DCE1A17007961C7 /* white lines.png in Resources */ = {isa = PBXBuildFile; fileRef = 389C8F3A1DCE1A17007961C7 /* white lines.png */; };
 		389C8F401DCE1BAE007961C7 /* SWRevealViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 389C8F3F1DCE1BAE007961C7 /* SWRevealViewController.m */; };
 		389C8F421DCE227D007961C7 /* DashboardViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 389C8F411DCE227D007961C7 /* DashboardViewController.swift */; };
-		389C8F441DCE2B91007961C7 /* imgres.png in Resources */ = {isa = PBXBuildFile; fileRef = 389C8F431DCE2B91007961C7 /* imgres.png */; };
+		389C8F461DCE3CEB007961C7 /* CreatePoolViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 389C8F451DCE3CEB007961C7 /* CreatePoolViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -28,12 +27,11 @@
 		389C8F091DCDEE6E007961C7 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		389C8F0C1DCDEE6E007961C7 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		389C8F0E1DCDEE6E007961C7 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		389C8F3A1DCE1A17007961C7 /* white lines.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "white lines.png"; path = "../white lines.png"; sourceTree = "<group>"; };
 		389C8F3D1DCE1BAD007961C7 /* SharING-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "SharING-Bridging-Header.h"; sourceTree = "<group>"; };
 		389C8F3E1DCE1BAE007961C7 /* SWRevealViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = SWRevealViewController.h; path = "../../../Downloads/SWRevealViewController-master/SWRevealViewController/SWRevealViewController.h"; sourceTree = "<group>"; };
 		389C8F3F1DCE1BAE007961C7 /* SWRevealViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = SWRevealViewController.m; path = "../../../Downloads/SWRevealViewController-master/SWRevealViewController/SWRevealViewController.m"; sourceTree = "<group>"; };
 		389C8F411DCE227D007961C7 /* DashboardViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DashboardViewController.swift; sourceTree = "<group>"; };
-		389C8F431DCE2B91007961C7 /* imgres.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = imgres.png; path = ../imgres.png; sourceTree = "<group>"; };
+		389C8F451DCE3CEB007961C7 /* CreatePoolViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CreatePoolViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -52,8 +50,6 @@
 			children = (
 				389C8EFF1DCDEE6E007961C7 /* SharING */,
 				389C8EFE1DCDEE6E007961C7 /* Products */,
-				389C8F3A1DCE1A17007961C7 /* white lines.png */,
-				389C8F431DCE2B91007961C7 /* imgres.png */,
 			);
 			sourceTree = "<group>";
 		};
@@ -78,6 +74,7 @@
 				389C8F0E1DCDEE6E007961C7 /* Info.plist */,
 				389C8F3D1DCE1BAD007961C7 /* SharING-Bridging-Header.h */,
 				389C8F411DCE227D007961C7 /* DashboardViewController.swift */,
+				389C8F451DCE3CEB007961C7 /* CreatePoolViewController.swift */,
 			);
 			path = SharING;
 			sourceTree = "<group>";
@@ -117,6 +114,9 @@
 		389C8EF51DCDEE6D007961C7 /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
+				KnownAssetTags = (
+					t,
+				);
 				LastSwiftUpdateCheck = 0810;
 				LastUpgradeCheck = 0810;
 				ORGANIZATIONNAME = "Liora Nasi";
@@ -153,9 +153,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				389C8F0D1DCDEE6E007961C7 /* LaunchScreen.storyboard in Resources */,
-				389C8F441DCE2B91007961C7 /* imgres.png in Resources */,
 				389C8F0A1DCDEE6E007961C7 /* Assets.xcassets in Resources */,
-				389C8F3B1DCE1A17007961C7 /* white lines.png in Resources */,
 				389C8F081DCDEE6E007961C7 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -171,6 +169,7 @@
 				389C8F031DCDEE6E007961C7 /* MasterViewController.swift in Sources */,
 				389C8F421DCE227D007961C7 /* DashboardViewController.swift in Sources */,
 				389C8F011DCDEE6E007961C7 /* AppDelegate.swift in Sources */,
+				389C8F461DCE3CEB007961C7 /* CreatePoolViewController.swift in Sources */,
 				389C8F401DCE1BAE007961C7 /* SWRevealViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
