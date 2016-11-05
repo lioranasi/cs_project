@@ -10,11 +10,12 @@
 		389C8F011DCDEE6E007961C7 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 389C8F001DCDEE6E007961C7 /* AppDelegate.swift */; };
 		389C8F031DCDEE6E007961C7 /* MasterViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 389C8F021DCDEE6E007961C7 /* MasterViewController.swift */; };
 		389C8F051DCDEE6E007961C7 /* DetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 389C8F041DCDEE6E007961C7 /* DetailViewController.swift */; };
-		389C8F081DCDEE6E007961C7 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 389C8F061DCDEE6E007961C7 /* Main.storyboard */; };
 		389C8F0A1DCDEE6E007961C7 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 389C8F091DCDEE6E007961C7 /* Assets.xcassets */; };
 		389C8F0D1DCDEE6E007961C7 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 389C8F0B1DCDEE6E007961C7 /* LaunchScreen.storyboard */; };
 		389C8F421DCE227D007961C7 /* DashboardViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 389C8F411DCE227D007961C7 /* DashboardViewController.swift */; };
 		389C8F461DCE3CEB007961C7 /* CreatePoolViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 389C8F451DCE3CEB007961C7 /* CreatePoolViewController.swift */; };
+		389C8F481DCE74E8007961C7 /* payment_percentage.png in Resources */ = {isa = PBXBuildFile; fileRef = 389C8F471DCE74E8007961C7 /* payment_percentage.png */; };
+		389C8F4E1DCE7636007961C7 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 389C8F4C1DCE7636007961C7 /* Main.storyboard */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -22,13 +23,14 @@
 		389C8F001DCDEE6E007961C7 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		389C8F021DCDEE6E007961C7 /* MasterViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MasterViewController.swift; sourceTree = "<group>"; };
 		389C8F041DCDEE6E007961C7 /* DetailViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailViewController.swift; sourceTree = "<group>"; };
-		389C8F071DCDEE6E007961C7 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		389C8F091DCDEE6E007961C7 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		389C8F0C1DCDEE6E007961C7 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		389C8F0E1DCDEE6E007961C7 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		389C8F3D1DCE1BAD007961C7 /* SharING-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "SharING-Bridging-Header.h"; sourceTree = "<group>"; };
 		389C8F411DCE227D007961C7 /* DashboardViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DashboardViewController.swift; sourceTree = "<group>"; };
 		389C8F451DCE3CEB007961C7 /* CreatePoolViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CreatePoolViewController.swift; sourceTree = "<group>"; };
+		389C8F471DCE74E8007961C7 /* payment_percentage.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = payment_percentage.png; path = SharING/payment_percentage.png; sourceTree = "<group>"; };
+		389C8F4D1DCE7636007961C7 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -47,6 +49,7 @@
 			children = (
 				389C8EFF1DCDEE6E007961C7 /* SharING */,
 				389C8EFE1DCDEE6E007961C7 /* Products */,
+				389C8F471DCE74E8007961C7 /* payment_percentage.png */,
 			);
 			sourceTree = "<group>";
 		};
@@ -64,8 +67,8 @@
 				389C8F001DCDEE6E007961C7 /* AppDelegate.swift */,
 				389C8F021DCDEE6E007961C7 /* MasterViewController.swift */,
 				389C8F041DCDEE6E007961C7 /* DetailViewController.swift */,
-				389C8F061DCDEE6E007961C7 /* Main.storyboard */,
 				389C8F091DCDEE6E007961C7 /* Assets.xcassets */,
+				389C8F4C1DCE7636007961C7 /* Main.storyboard */,
 				389C8F0B1DCDEE6E007961C7 /* LaunchScreen.storyboard */,
 				389C8F0E1DCDEE6E007961C7 /* Info.plist */,
 				389C8F3D1DCE1BAD007961C7 /* SharING-Bridging-Header.h */,
@@ -139,9 +142,10 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				389C8F481DCE74E8007961C7 /* payment_percentage.png in Resources */,
 				389C8F0D1DCDEE6E007961C7 /* LaunchScreen.storyboard in Resources */,
 				389C8F0A1DCDEE6E007961C7 /* Assets.xcassets in Resources */,
-				389C8F081DCDEE6E007961C7 /* Main.storyboard in Resources */,
+				389C8F4E1DCE7636007961C7 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -163,20 +167,20 @@
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXVariantGroup section */
-		389C8F061DCDEE6E007961C7 /* Main.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				389C8F071DCDEE6E007961C7 /* Base */,
-			);
-			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
 		389C8F0B1DCDEE6E007961C7 /* LaunchScreen.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
 				389C8F0C1DCDEE6E007961C7 /* Base */,
 			);
 			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+		389C8F4C1DCE7636007961C7 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				389C8F4D1DCE7636007961C7 /* Base */,
+			);
+			name = Main.storyboard;
 			sourceTree = "<group>";
 		};
 /* End PBXVariantGroup section */

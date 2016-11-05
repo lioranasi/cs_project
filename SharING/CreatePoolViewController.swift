@@ -10,6 +10,13 @@ import UIKit
 
 class CreatePoolViewController: UIViewController,UICollectionViewDelegate,UICollectionViewDataSource {
 
+    @IBOutlet weak var codeOutlet: UILabel! = UILabel()
+    
+    
+    
+    
+    
+    
     @IBOutlet weak var collView: UICollectionView!
     override func viewDidLoad() {
         super.viewDidLoad()
@@ -48,4 +55,13 @@ class CreatePoolViewController: UIViewController,UICollectionViewDelegate,UIColl
     }
     */
 
+    
+    @IBAction func havuzDetailsButton(_ sender: UIButton) {
+        
+        
+        
+        
+        
+        
+    }
 }
